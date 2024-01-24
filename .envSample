@@ -1,0 +1,7 @@
+DATABASE_NAME='language_record_manager'
+DATABASE_USERNAME=your_username
+DATABASE_PASSWORD=your_password
+DATABASE_HOST='localhost'
+DATABASE_DIALECT=mysql
+PORT=8080
+
