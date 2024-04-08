@@ -26,8 +26,6 @@ exports.post = async (req, res) => {
     const result = await languageService.createLanguage(languageItem);
 
     // Send response
-    // res.json(language); // Send the created language object as the response
-    // No need for res.status(200).json(...) as res.json() already sets a 200 status
     res.status(200).json({
       success: true,
       message: 'SUCCESS',
