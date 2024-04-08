@@ -6,6 +6,4 @@ router.post('/languages', languagesController.post);
 router.get('/languages', languagesController.index);
 router.get('/languages/:id', languagesController.getLanguageById);
 
-// ... other language routes
-
 module.exports = router;
